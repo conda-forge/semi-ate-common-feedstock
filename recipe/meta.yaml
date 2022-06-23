@@ -1,5 +1,5 @@
 {% set name = "semi-ate-common" %}
-{% set version = "1.0.10" %}
+{% set version = "1.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/semi-ate-common-{{ version }}.tar.gz
-  sha256: c994f429a40985db1ab783b7e76384f668afe92fc587acc4f11df8aa8c78e512
+  sha256: 66d5c8b0fecc76929f8b3d7ba37f4e0acadb42cd7891c3e7752a6631b362f4cf
 
 build:
   noarch: python
